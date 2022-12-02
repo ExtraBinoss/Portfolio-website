@@ -1,64 +1,10 @@
-<template>
-    <head>
-        <title>Alan Trebugeais</title>
-        <!-- <link href="css/style.css" type="text/css" rel="stylesheet"> -->
-    </head>
-    <div class="header">
-        <div class="box">
-            <div class = "typewriter"><NuxtLink to="/"><h1>{Alan Trebugeais}</h1></NuxtLink></div>
-                <!-- <h1><NuxtLink to= "/">{Alan Trebugeais}</NuxtLink></h1> -->
-            </div>
-        </div>
-    <div class="mainBox">
-        <table id ="hello">
-        <td id="porttable">I am a student at Epitech,
-            <br>Welcome to my portfolio !</td>
-    </table>
-        <table id="Tables">
-            <tr>
-                <div class="header5">
-                    <td id="git"><a href="Projects" target="_blank">Projects</a></td>
-                </div>
-                <td id="git"><a href ="Contact">Contact</a></td>
-                <!-- <td id="git"><NuxtLink to= "Contact">Discord</NuxtLink></td> -->
-            </tr>
-        </table>
-    </div>
-    <div class="mainBox"></div>
-</template>
-
-<style scoped>
-
-.typewriter h1 {
-    overflow: hidden;
-    border-right: .15em solid #97D2EC;
-    white-space: nowrap; 
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #97D2EC; }
-}
-
 #git {
-    font-weight: 700;
+    font-weight: 800;
 }
 #PortfolioTable {
     background-color: rgb(35, 48, 113);
     color : #97D2EC;
-    font-weight : 700;
+    font-weight : 800;
     
 }
 #hello {
@@ -66,10 +12,10 @@
     color : #97D2EC;
     font-size:30px;
     padding : 10vh;
-    margin-top: 16vh;
-    margin-right: -0.1vh;
+    margin-top: 15vh;
+    margin-right: 2vh;
     border-spacing: 30px;
-    font-weight: 700;
+    font-weight: 800;
 }
 #porttable {
     background-color: #25316D;
@@ -78,10 +24,12 @@
 }
 .header {
     color : #97D2EC;
+    background-color: #25316D;
     position: absolute;
     left: 50%;
     top: 20%;
     transform: translate(-50%, -50%);
+
 }
 .header5 {
     color : #97D2EC;
@@ -120,7 +68,7 @@
     border: 1px solid #222c60;
     margin: 10px;
     background-color: rgb(37,49,109);
-    box-shadow: 0px 1px 40px 1px #5F6F94;
+    box-shadow: 0px 5px 40px 5px #5F6F94;
     border-radius: 10px;
     letter-spacing: 2px;
 }
@@ -179,11 +127,12 @@
 }
 
 #Tables {
+    background-color: rgb(35, 48, 113);
     color : #97D2EC;
     font-size:30px;
-    padding : -0.2vh;
+    padding : 0vh;
     margin-top: -10vh;
-    border-spacing: 35px;
+    border-spacing: 30px;
 }
 
 #Tables th {
@@ -240,4 +189,3 @@ td:hover {
 a {
     color : #97D2EC;
 }
-</style>
