@@ -9,7 +9,7 @@
         <table id ="hello">
             <td id="porttable"><a href="https://github.com/EpitechPromo2027/B-CPE-110-MPL-1-1-BSQ-alan">BSQ</a></td>
         </table>
-    <a href="https://www.discord.gg/7U8K7J62"><img src="https://cdn.discordapp.com/attachments/1037432546054643845/1048242876468965376/image.png"></a>
+    <a href="https://github.com/EpitechPromo2027/B-CPE-110-MPL-1-1-BSQ-alan.trebugeais"><img src="https://cdn.discordapp.com/attachments/1037432546054643845/1048242876468965376/image.png"></a>
     </div>
     <div class="mainBox">
     </div>
