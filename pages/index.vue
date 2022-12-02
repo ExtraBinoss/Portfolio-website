@@ -68,7 +68,7 @@
     padding : 10vh;
     margin-top: 16vh;
     margin-right: -0.1vh;
-    border-spacing: 30px;
+    border-spacing: 35px;
     font-weight: 700;
 }
 #porttable {
@@ -114,16 +114,7 @@
     transform: translate(-50%, -50%); */
 
 }
-.box {
-    opacity:1.0;
-    padding: 10px; 
-    border: 1px solid #222c60;
-    margin: 10px;
-    background-color: rgb(37,49,109);
-    box-shadow: 0px 1px 40px 1px #5F6F94;
-    border-radius: 10px;
-    letter-spacing: 2px;
-}
+
 
 .fifthbox {
     padding: 10px; 
@@ -215,11 +206,22 @@ td:hover {
 .background {
     background-color: rgb(35, 48, 113);
 }
+.box {
+    opacity:1.0;
+    padding: 10px; 
+    border: 1px solid #222c60;
+    margin: 10px;
+    background-color: #25316d;
+    box-shadow: 0px 3px 8px 1px #5F6F94;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
 .box:hover { 
     background: rgb(35, 48, 113);
     background: linear-gradient(0deg, rgb(24, 39, 113) 100%, rgba(30,67,73,1) 100%);
-    box-shadow: 0px 5px 40px 5px #5F6F94;
-    transition: 0.3s;
+    box-shadow: 0px 4px 8px 5px #5F6F94;
+    transition: 0.5s;
+    opacity : 1;
 }
 #Tables th:hover {
     opacity : 1;
@@ -239,5 +241,8 @@ td:hover {
 }
 a {
     color : #97D2EC;
+}
+div {
+    overflow:hidden
 }
 </style>

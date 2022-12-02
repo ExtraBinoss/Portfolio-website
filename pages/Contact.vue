@@ -53,13 +53,13 @@ td {
     font-size:30px;
 }
 .typewriter h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
     animation: 
-    typing 3.5s steps(40, end),
+    typing 2.2s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
@@ -79,10 +79,17 @@ td {
     padding: 10px; 
     border: 1px solid #222c60;
     margin: 10px;
-    background-color: rgb(37,49,109);
-    box-shadow: 0px 1px 40px 1px #5F6F94;
+    background-color: #25316d;
+    box-shadow: 0px 3px 8px 1px #5F6F94;
     border-radius: 10px;
     letter-spacing: 2px;
+}
+.box:hover { 
+    background: rgb(35, 48, 113);
+    background: linear-gradient(0deg, rgb(24, 39, 113) 100%, rgba(30,67,73,1) 100%);
+    box-shadow: 0px 4px 8px 5px #5F6F94;
+    transition: 0.5s;
+    opacity : 1;
 }
 .header {
     color : #97D2EC;
@@ -104,5 +111,8 @@ td {
 a {
     color : #97D2EC;
     border-radius: 50%;
+}
+div {
+    overflow:hidden
 }
 </style>
