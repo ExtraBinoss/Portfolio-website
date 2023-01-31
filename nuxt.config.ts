@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         token: ``, 
         public: {
-        apibase: `/api`
+            apibase: `/api`
         }
     }
 })
